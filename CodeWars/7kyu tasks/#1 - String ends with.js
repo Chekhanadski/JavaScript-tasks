@@ -14,9 +14,5 @@ Title:
 */
 
 function solution(str, ending){
-  let endingLenght = ending.length;
-  let strEnd = str.slice(-endingLenght);
-  
-  if ( (strEnd === ending) || (ending.length === 0) ) return true;
-  return false;
+  return str.endsWith(ending);
 }
