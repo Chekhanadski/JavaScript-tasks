@@ -21,5 +21,5 @@
 */
 
 function order(words){
-  return words.split(' ').sort( (a, b) => {return a.split('').find(Number) - b.split('').find(Number) } ).join(' ');
+  return words.split(' ').sort( (a, b) => ( a.split('').find(Number) - b.split('').find(Number) ) ).join(' ');
 }
