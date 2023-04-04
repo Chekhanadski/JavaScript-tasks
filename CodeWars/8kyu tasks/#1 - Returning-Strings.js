@@ -8,7 +8,7 @@
   Examples:
 
   Kata Link:
-    https://www.codewars.com/kata/55a70521798b14d4750000a4/train/javascript/640f5458f4a0b7a83f299c3e
+    https://www.codewars.com/kata/55a70521798b14d4750000a4/train/javascript
 */
 
 function greet(name){
