@@ -1,5 +1,4 @@
 # JavaScript-tasks
 
-JavaScript tasks I solved on the site codewars.com .
-
-As well as solved tasks within the framework of the training course learn.javascript.ru .
+- JavaScript tasks solved by me on the site codewars.com .
+- tasks that I solved during the training course learn.javascript.ru .
