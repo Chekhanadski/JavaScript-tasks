@@ -37,16 +37,16 @@ function print(text) {
 }
 
 function isValid(name) {
-  if( name !== '' && name.length >= 4 && !name.includes(' ') ) return true;  
+  if (name !== "" && name.length >= 4 && !name.includes(" ")) return true;
 }
 
 function sayHello() {
-  let userName = prompt('Enter your name');
+  let userName = prompt("Enter your name");
 
   if (isValid(userName)) {
     print(`Welcome back, ${userName}!`);
   } else {
-    print('Invalid name');
+    print("Invalid name");
   }
 }
 

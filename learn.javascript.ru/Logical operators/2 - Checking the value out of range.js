@@ -16,11 +16,11 @@
 // with the operator "!"
 
 function ageBeyondRange1(age) {
-  return !(age >= 14 && age <= 90) 
+  return !(age >= 14 && age <= 90);
 }
 
 // with the operator "||"
 
 function ageBeyondRange2(age) {
-  return age < 14 || age > 90 
+  return age < 14 || age > 90;
 }

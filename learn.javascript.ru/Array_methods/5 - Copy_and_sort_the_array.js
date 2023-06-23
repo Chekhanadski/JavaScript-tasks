@@ -19,10 +19,8 @@
     https://learn.javascript.ru/task/copy-sort-array
 */
 
-
 function copySorted(arr) {
-    
-  return arr.slice().sort( (a, b) => a.localeCompare(b) );
+  return arr.slice().sort((a, b) => a.localeCompare(b));
 }
 
 let sorted = copySorted(arr);

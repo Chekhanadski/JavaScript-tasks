@@ -30,7 +30,7 @@
 
 function multiplyNumeric(obj) {
   for (let key in obj) {
-    if ( isFinite(obj[key]) ) {
+    if (isFinite(obj[key])) {
       obj[key] = obj[key] * 2;
     }
   }

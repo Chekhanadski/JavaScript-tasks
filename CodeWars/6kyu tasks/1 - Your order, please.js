@@ -20,6 +20,9 @@
     https://www.codewars.com/kata/55c45be3b2079eccff00010f/train/javascript
 */
 
-function order(words){
-  return words.split(' ').sort( (a, b) => ( a.split('').find(Number) - b.split('').find(Number) ) ).join(' ');
+function order(words) {
+  return words
+    .split(" ")
+    .sort((a, b) => a.split("").find(Number) - b.split("").find(Number))
+    .join(" ");
 }

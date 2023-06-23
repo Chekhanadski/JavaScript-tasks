@@ -28,15 +28,24 @@
 */
 
 function countSmileys(arr) {
-  return arr.reduce( (sum, elem) => { 
+  return arr.reduce((sum, elem) => {
     if (elem.length == 2) {
-      if( (elem[0] === ";" || elem[0] === ":") && (elem[1] === ')' || elem[1] === 'D') ) {
+      if (
+        (elem[0] === ";" || elem[0] === ":") &&
+        (elem[1] === ")" || elem[1] === "D")
+      ) {
         return sum + 1;
-      } return sum + 0;
-    } else if (elem.length = 3) {
-      if ( (elem[0] === ";" || elem[0] === ":") && (elem[1] === "-" || elem[1] === "~") && (elem[2] === ')' || elem[2] === 'D') ) {
+      }
+      return sum + 0;
+    } else if ((elem.length = 3)) {
+      if (
+        (elem[0] === ";" || elem[0] === ":") &&
+        (elem[1] === "-" || elem[1] === "~") &&
+        (elem[2] === ")" || elem[2] === "D")
+      ) {
         return sum + 1;
-      } return sum + 0;
+      }
+      return sum + 0;
     }
-  }, 0)
+  }, 0);
 }

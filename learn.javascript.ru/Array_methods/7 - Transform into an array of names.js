@@ -21,15 +21,12 @@
     https://learn.javascript.ru/task/array-get-names
 */
 
-    let bob = { name: "Bob", age: 25 };
-    let alex = { name: "Alex", age: 30 };
-    let max = { name: "Max", age: 28 };
+let bob = { name: "Bob", age: 25 };
+let alex = { name: "Alex", age: 30 };
+let max = { name: "Max", age: 28 };
 
-    let users = [ bob, alex, max ];
+let users = [bob, alex, max];
 
-    let names =  users.map( (elem) => elem.name );
+let names = users.map((elem) => elem.name);
 
-
-    console.log( names ); 
-
-
+console.log(names);

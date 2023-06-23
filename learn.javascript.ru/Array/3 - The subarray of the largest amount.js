@@ -32,11 +32,10 @@ function getMaxSubSum(arr) {
   let partialSum = 0;
 
   for (let item of arr) {
-      partialSum += item;
-      maxSum = Math.max(partialSum, maxSum);
-      if (partialSum < 0) partialSum = 0;      
+    partialSum += item;
+    maxSum = Math.max(partialSum, maxSum);
+    if (partialSum < 0) partialSum = 0;
   }
-  
+
   return maxSum;
 }
-

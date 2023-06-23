@@ -27,6 +27,6 @@
 
 function isEmpty(obj) {
   if (keys(obj).length === 0) return true;
-  
+
   return false;
 }

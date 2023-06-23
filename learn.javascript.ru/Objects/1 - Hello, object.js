@@ -17,8 +17,8 @@
     https://learn.javascript.ru/task/ucfirst
 */
 
-let user = {}; 
-user.name = 'John';
-user.surname = 'Smith';
-user.name = 'Pete';
+let user = {};
+user.name = "John";
+user.surname = "Smith";
+user.name = "Pete";
 delete user.name;

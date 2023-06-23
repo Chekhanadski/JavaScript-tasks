@@ -33,12 +33,16 @@
     https://www.codewars.com/kata/5552101f47fc5178b1000050/train/javascript
 */
 
-function digPow(n, p){ 
-  let sum = String(n).split('').reduce( function (sum, elem, index) { return +sum + Math.pow(elem, p++) }, 0) 
-  
+function digPow(n, p) {
+  let sum = String(n)
+    .split("")
+    .reduce(function (sum, elem, index) {
+      return +sum + Math.pow(elem, p++);
+    }, 0);
+
   let remains = sum % n;
   let result = sum / n;
-   
+
   if (remains === 0) return result;
   else return -1;
 }

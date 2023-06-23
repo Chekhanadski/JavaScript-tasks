@@ -16,19 +16,18 @@
     https://learn.javascript.ru/task/array-input-sum
 */
 
-function sumInput() {   
-  let numbers = [];    
-    
-  while(true) {
-    let value = prompt('Enter number', 0);
+function sumInput() {
+  let numbers = [];
 
-    if ( value === null || value === '' || !isFinite(value) ) break;
+  while (true) {
+    let value = prompt("Enter number", 0);
 
-    numbers.push(+value); 
+    if (value === null || value === "" || !isFinite(value)) break;
+
+    numbers.push(+value);
   }
 
-  let sum = numbers.reduce( (a, b) => a + b, 0 );
-  
+  let sum = numbers.reduce((a, b) => a + b, 0);
+
   return sum;
 }
-

@@ -24,14 +24,13 @@
 */
 
 function loginVerification() {
-  let login = prompt('Enter login', '');
-  
-  if (login === 'Admin') {
-      let password = prompt('Enter password', '');
-      if (password === `I'm in charge`) alert('Hello!');
-      else if (password === null || password === '') alert('Cancelled');
-      else alert('Invalid password');
-      
-  } else if (login === null || login === '') alert('Cancelled');
+  let login = prompt("Enter login", "");
+
+  if (login === "Admin") {
+    let password = prompt("Enter password", "");
+    if (password === `I'm in charge`) alert("Hello!");
+    else if (password === null || password === "") alert("Cancelled");
+    else alert("Invalid password");
+  } else if (login === null || login === "") alert("Cancelled");
   else alert(`I don't know you`);
 }

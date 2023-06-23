@@ -20,6 +20,6 @@ function isEmpty(obj) {
   let length = keys(obj).length;
 
   if (length === 0) return true;
-  
+
   return false;
 }

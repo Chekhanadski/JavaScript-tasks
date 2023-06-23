@@ -19,10 +19,13 @@
 */
 
 function camelize(str) {
-  return str.split('-').map( (elem, index, array) => {
+  return str
+    .split("-")
+    .map((elem, index, array) => {
       if (index !== 0) {
         return elem[0].toUpperCase() + elem.slice(1);
-      }      
-      return  elem;
-    }).join('')
+      }
+      return elem;
+    })
+    .join("");
 }

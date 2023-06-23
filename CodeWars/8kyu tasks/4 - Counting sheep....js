@@ -20,12 +20,11 @@
     https://www.codewars.com/kata/5a00e05cc374cb34d100000d/javascript
 */
 
-
 function countSheeps(arrayOfSheep) {
   let result = 0;
   for (let i = 0; i < arrayOfSheep.length; i++) {
     if (arrayOfSheep[i] === true) {
-      result += 1
+      result += 1;
     }
   }
   return result;

@@ -11,4 +11,4 @@
     https://learn.javascript.ru/task/sort-back
 */
 
-arr.sort( (a, b) => (b - a) );
+arr.sort((a, b) => b - a);

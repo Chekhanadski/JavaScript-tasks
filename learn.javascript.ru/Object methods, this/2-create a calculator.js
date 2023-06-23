@@ -28,17 +28,17 @@ let calculator = {
   read() {
     this.a = +prompt('Enter number "a"', 0);
     this.b = +prompt('Enter number "b"', 0);
-  },   
+  },
 
   sum() {
     return this.a + this.b;
   },
 
   mul() {
-    return this.a * this.b
-  },  
-}
+    return this.a * this.b;
+  },
+};
 
 calculator.read();
-alert( calculator.sum() );
-alert( calculator.mul() );
+alert(calculator.sum());
+alert(calculator.mul());

@@ -17,6 +17,6 @@
 
 function checkSpam(str) {
   lowerStr = str.toLowerCase();
-  if (lowerStr.includes('viagra') || lowerStr.includes('xxx')) return true;
+  if (lowerStr.includes("viagra") || lowerStr.includes("xxx")) return true;
   return false;
 }
