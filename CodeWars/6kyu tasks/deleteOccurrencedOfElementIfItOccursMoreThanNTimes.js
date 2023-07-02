@@ -15,3 +15,12 @@
   Kata Link:
     https://www.codewars.com/kata/554ca54ffa7d91b236000023/train/javascript
 */
+
+function deleteNth(arr, n) {
+  const obj = {};
+
+  return arr.filter((elem) => {
+    obj[elem] = obj[elem] ? obj[elem] + 1 : 1;
+    return obj[elem] <= n;
+  });
+}
