@@ -29,7 +29,6 @@ Description:
     xyxyxyxyxy  <---The effect when you console.log it 
 
 
-
 Kata Link:
   https://www.codewars.com/kata/5729b103dd8bac11a900119e/train/javascript
 */
