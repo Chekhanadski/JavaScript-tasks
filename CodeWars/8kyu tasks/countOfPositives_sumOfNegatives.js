@@ -17,11 +17,17 @@
 */
 
 function countPositivesSumNegatives(input) {
-  return input.reduce(
+  if (!input || input.length === 0) {
+    return [];
+  }
+
+  const countAndSum = input.reduce(
     (acc, elem) => {
       elem > 0 ? (acc[0] += 1) : (acc[1] += elem);
       return acc;
     },
     [0, 0]
   );
+
+  return countAndSum;
 }
